@@ -57,14 +57,18 @@ def test_get_nth_fibonacci_one():
     # Assert
     assert result == 1
 
+ reenable-unit-test
 
 def test_get_nth_fibonacci_ten():
-#     """Test with n=10."""
+     """Test with n=10."""
+def test_get_nth_fibonacci_ten():
+    """Test with n=10."""
+ main
 #     # Arrange
-#     n = 10
+     n = 10
 
 #     # Act
-#     result = get_nth_fibonacci(n)
+     result = get_nth_fibonacci(n)
 
 #     # Assert
-#     assert result == 89
+     assert result == 89
